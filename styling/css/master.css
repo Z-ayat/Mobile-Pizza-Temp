@@ -5,6 +5,7 @@ font-family: 'Raleway', sans-serif; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -101,19 +102,28 @@ html{
 .rect .otitle .spaceletters {
         font-weight:400;
 }
-.rect .button {
+.hidden{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 100%;
+    margin-left: 350px;
+}
+.button {
+    margin-top: -35px;
     display: flex;
     color: white;
     background-color: var(--maincolor);
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 32px;
     overflow-wrap: unset;
     width: 300px;
     height: 80px;
     border: 2px solid white;
     align-items: center;
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-top: 5px;
 }
